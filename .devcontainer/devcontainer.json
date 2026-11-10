@@ -1,0 +1,6 @@
+{
+  "name": "Lazulda 4-Core OP Node",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+  "postCreateCommand": "python3 -m pip install --no-cache-dir --upgrade pip && chmod +x start.sh && ./start.sh",
+  "customizations": { "vscode": { "extensions": ["ms-python.python"] } }
+}
